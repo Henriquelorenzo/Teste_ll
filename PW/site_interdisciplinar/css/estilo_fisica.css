@@ -1,0 +1,73 @@
+/* Menu */
+main{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Borda */
+.caixa{
+    margin: 20px auto;
+    border: 3px solid rgb(148, 148, 148);
+    background-color: rgba(196, 196, 196, 0.719);
+    width: 90%;
+}
+
+/* Título do tema abordado */
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* Tópicos do tema abordado */
+.topicos{
+    font-size: x-large;
+}
+
+.sub_topicos{
+    font-size: smaller;
+    text-decoration: underline;
+}
+
+#importante{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* Âncoras */
+#mru{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#mruv{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#dt{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/* Conteúdo */
+.materia{
+    font-size: large;
+}
+
+/* Imagens */
+.fotos{
+    width: 350px;
+    height: 250px;
+}
+
+/* Rodapé */
+footer{
+    height: 100px;
+}
+
+/* Imagem rodapé */
+#fotos{
+    width: 80px;
+    height: 70px;
+}

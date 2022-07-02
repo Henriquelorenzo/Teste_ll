@@ -1,0 +1,43 @@
+/* Configurações de posicionamento */
+main{
+    text-align: center;
+}
+
+section{
+    margin: 0 auto;
+    background-color: gray;
+    width: 85%;
+    text-align: center;
+}
+
+/* Formatação dao texto */
+#titulo{
+    font-family: Bernard MT Condensed;
+    font-size: larger;
+}
+
+.materia{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+/* Formatação das imagens */
+.fotos{
+    width: 350px;
+    height: 200px;
+}
+
+#fotos{
+    width: 350px;
+    height: 220px;
+}
+
+#esp{
+    width: 220px;
+    height: 130px;
+}
+
+#esp_I{
+    width: 220px;
+    height: 130px;
+}

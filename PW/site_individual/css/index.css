@@ -1,0 +1,135 @@
+/* Zerando margem e espaçamento */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Definições gerais */
+header{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    height: 250px;
+}
+
+.img_cabecalho{
+    width: 300px;
+}
+
+body{
+    background-color: rgb(168, 168, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: black;
+}
+
+#sessão{
+    margin: 0 auto;
+    background-color: gray;
+    width: 95%;
+    height: 800px;
+}
+
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(94, 94, 94);
+    height: 40px;
+}
+
+/*Barra de controle do site*/
+.titulo-site{
+    color:white;
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Formatação dosa links */
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: grey;
+}
+
+/* Trocar cor do link quando o cursor estiver em cima */
+a:hover{
+    background: rgb(29, 28, 28);
+    border-radius: 5px 5px;
+}
+
+
+/*Título das notícias*/
+.txt_I{
+    color: black;
+    font-weight: bold;
+    padding-left: 0px;
+    line-height: 30px;
+}
+
+#txt_II{
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    line-height: 30px;
+}
+/*Imagens das notícias*/
+#img_I{
+    width: 680px;
+    height: 350px;
+    padding-left: 10px;
+}
+
+.img_II{
+    width: 350px;
+    height: 190px;
+}
+
+/*Alinhar as manchetes*/
+.cx_I{
+    float: left;
+    padding-left: 0px;
+}
+
+.cx_II{
+    color: black;
+    float: left;
+    font-weight: normal;
+    line-height: 55px;
+    padding-left: 40px;
+
+}
+
+#manchete{
+    float: left;
+    padding-left: 12px;
+    width: 350px;
+    height: 250px;
+}
+
+
+#manchete_I{
+    text-align: center;
+    float: left;
+    width: 350px;
+    height: 250px;
+    padding-left: 92px;
+
+}
+
+#manchete_II{
+    text-align: right;
+    float: left;
+    width: 370px;
+    height: 250px;
+    padding-left: 92px;
+}

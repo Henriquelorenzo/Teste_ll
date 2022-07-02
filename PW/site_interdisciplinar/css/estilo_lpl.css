@@ -1,0 +1,65 @@
+/* Menu */
+main{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Borda */
+.caixa{
+    margin: 20px auto;
+    border: 3px solid rgb(148, 148, 148);
+    background-color: rgba(196, 196, 196, 0.719);
+    width: 90%;
+}
+
+/* Título do tema abordado */
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+/* Âncoras */
+#conto{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#desenhos{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#resenha{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/* Conteúdo */
+.materia{
+    font-size: large;
+}
+
+.autor{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline 2px;
+}
+
+/* Imagens */
+.foto{
+    width: 380px;
+    height: 260px;
+}
+
+/* Rodapé */
+footer{
+    height: 100px;
+}
+
+/* Imagem rodapé */
+#fotos{
+    width: 80px;
+    height: 70px;
+}

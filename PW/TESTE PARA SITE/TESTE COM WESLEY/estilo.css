@@ -1,0 +1,47 @@
+/* Zeramndo margem e espaçamento */
+/* *=Seletor Universal */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Definições gerais */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dedee9;
+}
+
+header{
+    background-color: #1867a9;
+    padding: 10px;
+    text-align: center;
+    height: 150px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Distância ente a logo e a barra de nav */
+nav{
+    margin-top: 20px;
+}
+
+/* Formatação de links */
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+/* Trocar a cor do link quando o cursor estiver em cima */
+a:hover{
+    background: #39f;
+    border-radius: 10px 20px;
+}
+
